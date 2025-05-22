@@ -9,7 +9,7 @@ const fs = require("fs");
 const axios = require("axios");
 const { log } = require("console");
 const { json } = require("stream/consumers");
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5002;
 
 const app = express();
 app.use(cors());
